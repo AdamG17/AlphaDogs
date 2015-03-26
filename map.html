@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Alphadogs - Map</title>
+
+<!-- google fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+
+
+<!-- Google Map InfoBoxes -->
+<!-- <script type="text/javascript" src="http://google-maps-utility-library-v3.googlecode.com/svn/trunk/infobox/src/infobox.js"></script> -->
+
+<!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="css/vendor/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/vendor/idangerous.swiper.css">
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+
+<!--Favicon-->
+    <link rel="icon" href="images/alphadogs-favicon.png" sizes="16x16 32x32" type="image/png">
+
+</head>
+
+<!-- Body -->
+<body>
+    <nav class="navbar navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse">
+                        <img src="images/ad-hamburger.png" width="25" height="25" alt="My Account">
+                    </button>   
+
+                    <div class="sm-logo visible-sm-* visible-xs-* hidden-md hidden-lg">
+                        <a class="navbar-brand" href="home.html">    
+                            <img src="images/ad-logo-mobile.png" width="105" height="34" alt="Home">    
+                        </a>    
+                    </div>       
+            
+                    <div class="navbar-header hidden-sm hidden-xs visible-md-* visible-lg-*">
+                        <a class="navbar-brand" href="home.html">
+                            <img src="images/ad-logo-desktop.png" width="250" height="90" alt="Home">    
+                        </a>        
+                    </div>    
+        
+                    <div class="navbar-collapse collapse" id="collapse">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#">My Info</a></li>
+                            <li><a href="#">My Dogs</a></li>
+                            <li><a href="#">My Parks</a></li>
+                            <li><a href="#">My Pack</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">FAQs</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Sign Out</a></li>
+                        </ul>
+                    </div>                     
+                </div>
+            </div>
+    </nav>
+
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+            <ul class="nav navbar-nav col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <li class="col-xs-4 col-sm-4">
+                    <a href="parks.html">Dog Parks</a>
+                </li>
+                <li class="col-xs-4 col-sm-4">
+                    <a href="map.html">Map</a>
+                </li>
+                <li class="col-xs-4 col-sm-4">
+                    <a href="mypack.html">My Pack</a>
+                </li>
+            </ul>
+        </div>    
+    </nav>
+
+<!--MAP-->
+
+<div id="map-canvas"></div>
+
+<!--JavaScript-->
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="js/vendor/bootstrap.min.js"></script>
+<script src="js/vendor/idangerous.swiper.js"></script>
+<script src="js/vendor/respond.min.js"></script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCUx1Jc2_SCou_627BHhsV9l8pKazxNXRQ">
+</script>
+<script src="js/custom.js"></script>
+
+</body>
+</html>
