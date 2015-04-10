@@ -152,9 +152,6 @@ var locations = [
 
       '<div id="firstHeading" class="firstHeading"><h1>Alamo Square Dog Park</h1>'+
       '<p><i>Scott & Fulton • Partial Off Leash</i>'+
-      '<button type="button" class="close">'+
-      '<img src="images/icons/red/icon-red_close.png" width="28" height="28" alt="Close">'+
-      '</button>'+
       '</div>'+ 
 
       '<div id="bodyContent">'+
@@ -182,9 +179,6 @@ var locations = [
 
       '<div id="firstHeading" class="firstHeading"><h1>Alta Plaza Dog Park</h1>'+
       '<p><i>Jackson & Steiner • Partial Off Leash</i>'+
-      '<button type="button" class="close">'+
-      '<img src="images/icons/red/icon-red_close.png" width="28" height="28" alt="Close">'+
-      '</button>'+
       '</div>'+ 
 
       '<div id="bodyContent">'+
@@ -212,9 +206,6 @@ var locations = [
 
       '<div id="firstHeading" class="firstHeading"><h1>Buena Vista Park</h1>'+
       '<p><i>Buena Vista & Haight • Off Leash</i>'+
-      '<button type="button" class="close">'+
-      '<img src="images/icons/red/icon-red_close.png" width="28" height="28" alt="Close">'+
-      '</button>'+
       '</div>'+ 
 
       '<div id="bodyContent">'+
@@ -241,9 +232,6 @@ var locations = [
 
       '<div id="firstHeading" class="firstHeading"><h1>Crissy Field</h1>'+
       '<p><i>1199 East Beach • Off Leash</i>'+
-      '<button type="button" class="close">'+
-      '<img src="images/icons/red/icon-red_close.png" width="28" height="28" alt="Close">'+
-      '</button>'+
       '</div>'+ 
 
       '<div id="bodyContent">'+
@@ -270,9 +258,6 @@ var locations = [
 
       '<div id="firstHeading" class="firstHeading"><h1>Douglass Dog Park</h1>'+
       '<p><i>Douglass & 27th Street • Off Leash</i>'+
-      '<button type="button" class="close">'+
-      '<img src="images/icons/red/icon-red_close.png" width="28" height="28" alt="Close">'+
-      '</button>'+
       '</div>'+ 
 
       '<div id="bodyContent">'+
@@ -299,9 +284,6 @@ var locations = [
 
       '<div id="firstHeading" class="firstHeading"><h1>Fort Funston National Park</h1>'+
       '<p><i>Great Highway & Skyline Blvd • Off Leash</i>'+
-      '<button type="button" class="close">'+
-      '<img src="images/icons/red/icon-red_close.png" width="28" height="28" alt="Close">'+
-      '</button>'+
       '</div>'+ 
 
       '<div id="bodyContent">'+
@@ -328,9 +310,6 @@ var locations = [
 
       '<div id="firstHeading" class="firstHeading"><h1>Fort Mason Great Meadow</h1>'+
       '<p><i>2 Marina Boulevard • Partial Off Leash</i>'+
-      '<button type="button" class="close">'+
-      '<img src="images/icons/red/icon-red_close.png" width="28" height="28" alt="Close">'+
-      '</button>'+
       '</div>'+ 
 
       '<div id="bodyContent">'+
@@ -356,10 +335,7 @@ var locations = [
       '<div id="parkPopup">'+
 
       '<div id="firstHeading" class="firstHeading"><h1>Golden Gate Park</h1>'+
-      '<p><i>Between Lincoln & Fulton Streets • Partial Off Leash</i>'+
-      '<button type="button" class="close">'+
-      '<img src="images/icons/red/icon-red_close.png" width="28" height="28" alt="Close">'+
-      '</button>'+
+      '<p><i>Between Lincoln & Fulton Streets • Partial Off Leash</i>'+   
       '</div>'+ 
 
       '<div id="bodyContent">'+
@@ -385,10 +361,7 @@ var locations = [
       '<div id="parkPopup">'+
 
       '<div id="firstHeading" class="firstHeading"><h1>Lafayette Park</h1>'+
-      '<p><i>Gough St. & Washington St.• Partial Off Leash</i>'+
-      '<button type="button" class="close">'+
-      '<img src="images/icons/red/icon-red_close.png" width="28" height="28" alt="Close">'+
-      '</button>'+
+      '<p><i>Gough St. & Washington St.• Partial Off Leash</i>'+ 
       '</div>'+ 
 
       '<div id="bodyContent">'+
@@ -415,9 +388,6 @@ var locations = [
 
       '<div id="firstHeading" class="firstHeading"><h1>Marina Green</h1>'+
       '<p><i>Marina Blvd between Scott &amp; Webster Streets • Off Leash</i>'+
-      '<button type="button" class="close">'+
-      '<img src="images/icons/red/icon-red_close.png" width="28" height="28" alt="Close">'+
-      '</button>'+
       '</div>'+ 
 
       '<div id="bodyContent">'+
@@ -444,9 +414,6 @@ var locations = [
 
       '<div id="firstHeading" class="firstHeading"><h1>Mountain Lake Dog Park</h1>'+
       '<p><i>98 Funston Avenue • Partial Off Leash</i>'+
-      '<button type="button" class="close">'+
-      '<img src="images/icons/red/icon-red_close.png" width="28" height="28" alt="Close">'+
-      '</button>'+
       '</div>'+ 
 
       '<div id="bodyContent">'+
@@ -473,7 +440,6 @@ var locations = [
 var tagURLPrefix = 'images/';
 
 var icons = [
-  tagURLPrefix + 'alphadogs-mapicon-blue.png',
   tagURLPrefix + 'alphadogs-mapicon-red.png',
   tagURLPrefix + 'alphadogs-mapicon-grey.png'
 ]
